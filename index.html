@@ -1,12 +1,15 @@
-<html>
-<head>
-    <meta charset="utf-8">
-    <script language="javascript" type="text/javascript" src=" src="https://d3js.org/d3.v7.min.js"></script>
-    <title>Pie Chart Assignment 5</title>
-</head>
-<h1> 
- Random Distribution
-</h1>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Bar Chart</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
 <body>
-</body>
-</html>
+<script type="module">
+
+import define from "./index.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>
+
